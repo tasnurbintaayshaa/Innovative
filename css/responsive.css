@@ -1,0 +1,371 @@
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+/* ====================================== navbar start  ============================= */
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler {
+
+	background-color: white; 
+	border:var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+}
+nav ul {
+	background-color: rgb(72, 61, 139);
+    opacity: 0.799999;
+	text-align: center;
+    border: 1px solid white;
+}
+nav ul li  {
+    border-bottom: 1px solid white;
+}
+.nav_last_child {
+	margin-right: 0;
+    border-bottom: 0px;
+}
+.custom-btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+/* ====================================== navbar end ============================= */
+/* ====================================== banner start ============================= */
+.banner_overlay {
+	height: 660px;
+}
+.banner_content h1 {
+	width: auto;
+	line-height: 48px;
+	margin-top: -104px;
+	font-size: 42px;
+}
+.banner_content p {
+	width: auto;
+	line-height: 25px;
+	font-size: 14px;
+}
+.banner_btn {
+	display: flex;
+	flex-direction: column;
+}
+.banner_btn .custom-btn {
+	margin-top: -5px;
+	margin-bottom: 39px;
+}
+/* ====================================== banner end ============================= */
+/* ====================================== overview start ============================= */
+.overview{
+    height: 1090px;
+}
+.overview_content {
+    flex-direction: column;
+	position: static;
+	margin-top: 20px;
+}
+.overview_content .blank_img1 picture img {
+	width: 174px;
+}
+.overview_content .blank_img2 picture img {
+	width: 190px;
+	border: 3px solid white;
+	position: relative;
+	top: -89px;
+	left: 110px;
+	border-radius: 20px;
+}
+.overview_content .blank_img3 picture img {
+	width: 171px;
+	position: relative;
+	top: -428px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+.overview_content .blank_img4 picture img {
+	width: 150px;
+	position: relative;
+	top: -390px;
+	border: 6px solid white;
+	border-radius: 20px;
+	left: 47px;
+}
+.overview_content_2 {
+	flex-direction: column;
+	top: -362px;
+}
+.overview_content_2 .item1 {
+	border-bottom: 4px solid #D7D9DC;
+    border-right: 0px;
+    position: static;
+}
+.overview_content_2 .item1 h2 {
+	font-size: 35px;
+}
+.overview_content_2 .item1 h4{
+	font-size: 20px;
+    padding-bottom: 10px;
+}
+/* ====================================== overview  end ============================= */
+/* ====================================== why choose start ============================= */
+.why_choose .item {
+	flex-direction: column;
+    width: auto;
+    height: 148px;
+}
+.why_choose_content  .item img {
+    padding-bottom: 20px;
+}
+.why_choose .item picture {
+    padding-top: 20px;
+padding-bottom: 26px;
+margin-bottom: -5px;
+}
+.why_choose .item p {
+	padding: 0px 0px; 
+	 margin-left: 0px;
+	line-height: 22px;
+	width: auto;
+}
+.why_choose_content1 {
+	margin-bottom: -64px;
+}
+.why_choose_content2 h3 {
+	font-size: 38px;
+}
+.why_choose_content2 p {
+	width: auto;
+	line-height: 25px;
+	margin-top: 13px;
+	margin-bottom: 28px;
+	font-size: 15px;
+}
+.why_choose_content2 .custom-btn {
+	margin-top: 20px;
+	margin-bottom: 63px;
+	
+}
+/* ====================================== why choose end ============================= */
+/* ====================================== we do start ============================= */
+.we_do_item {
+	width: auto;
+	
+}
+.we_do_item h3 {
+	margin-top: 36px;
+	padding-bottom: 6px;
+}
+.we_do_item p {
+	padding-bottom: 16px;
+	font-size: 16px;
+}
+.we_do_item2 {
+	width: auto;
+}
+.we_do_item2 p {
+	font-size: 15px;
+}
+.we_do_btn {
+	left: 180px;
+}
+/* ====================================== we do end ============================= */
+/* ====================================== impact start ============================= */
+.impact {
+	height: 1209px;
+}
+.impact_title h2 {
+	padding-top: 46px;
+	padding-bottom: 12px;
+	font-size: 39px;
+}
+.impact_title p {
+	width: auto;
+	font-size: 13px;
+}
+.impact_content_item {
+	width: auto;
+    margin-bottom: -27px;
+}
+.impact_content_item .item_img {
+	margin-right: 25px;
+}
+.impact_content_element h4 {
+	font-size: 25px;
+}
+.impact_content_element p {
+	line-height: 21px;
+	margin-top: 34px;
+	margin-bottom: -22px;
+	font-size: 12px;
+}
+.impact_content_img{
+    display: flex;
+}
+.impact_content_img_1 {
+	top: 20px;
+	left: -53px;
+	width: 161px;
+}
+.impact_content_img_2 {
+	top: 109px;
+	left: -150px;
+}
+.impact_content_img_3 {
+	position: relative;
+	top: 364px;
+	width: fit-content;
+	left: -451px;
+}
+/* ====================================== impact end ============================= */
+/* ====================================== right plan ============================= */
+.right_plan {
+	height: 1700px;
+}
+.right_plan_title h3 {
+	font-size: 38px;
+}
+.right_plan_content {
+	width: auto;
+	height: 482px;
+	 margin-right: 0px;
+     margin-bottom: 10px;
+}
+/* ====================================== right plan end ============================= */
+/* ====================================== think start ============================= */
+.think_about_title h5 {
+	font-size: 32px;
+}
+.think_about_title_content_img picture img {
+	top: 51px;
+}
+.think_about_title_content_item {
+	width: auto;
+    height: 361px;
+}
+
+    .think_about_title_content_item .item_star {
+        padding-top: 65px;
+    }
+    .think_about_title_content_item p {
+        width: auto;
+        line-height: 23px;
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+    .think_about_title_content_item h6 {
+        line-height: 21px;
+        font-size: 22px;
+    }
+    .think_about_title_content_item h4 {
+        line-height: 23px;
+        font-size: 17px;
+    }
+/* ====================================== think  end ============================= */
+/* ====================================== like start  ============================= */
+.like_title h5 {
+	line-height: 34px;
+	margin-top: 48px;
+	margin-bottom: 42px;
+	font-size: 36px;
+}
+.like_content_img{
+    display: flex;
+    justify-content: center;
+}
+.like_content_img picture img {
+	width: 298px;
+}
+.like_custom_margin {
+	margin-top: 22px;
+}
+.like_news_info h2 {
+	margin-right: 13px;
+}
+.like_news_info h3 {
+	margin-right: 3px;
+	line-height: 21px;
+    font-size: 13px;
+}
+.like_news_info h4 {
+	margin-right: 10px;
+	line-height: 22px;
+	font-size: 13px;
+}
+.like_news_info h5 {
+	margin-right: 7px;
+	line-height: 25px;
+	font-size: 13px;
+}
+.like_news_info h6 {
+	line-height: 24px;
+	font-size: 13px;
+}
+.like_content_item p {
+	line-height: 33px;
+	width: auto;
+	margin-top: 5px;
+	margin-bottom: 24px;
+	font-size: 25px;
+}
+/* ====================================== like  end ============================= */
+/* ====================================== footer start  ============================= */
+footer{
+    height: 713px;
+}
+.footer_content_1 {
+	padding-top: 64px;
+}
+.footer_content_1 p {
+	padding-top: 25px;
+	padding-bottom: 31px;
+	line-height: 169%;
+	width: auto;
+}
+.footer_item {
+	padding-top: 0px;
+	display: flex;
+}
+.footer_item .item_1 {
+	padding-right: 17px;
+}
+.footer_item_margin {
+	padding-left: 4px;
+}
+.footer_item .item_1 li {
+	padding-bottom: 14px;
+	color: #FEFEFE;
+	line-height: 114%;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.footer_policy {
+padding-top: 0px;
+}
+.footer_policy h2 {
+    font-size: 16px;
+}
+.footer_policy h4 {
+    font-size: 16px;
+}
+/* ====================================== footer end ============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+@media (min-width: 768px) and (max-width: 991.98px) { }
+@media (min-width: 768px) and (max-width: 1199.98px) { }
+@media (min-width: 1200px) and (max-width: 1399.98px) { }
+@media (min-width: 1400px)  { }

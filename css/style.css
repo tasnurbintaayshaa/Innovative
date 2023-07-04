@@ -131,6 +131,7 @@ nav ul li ul li a {
   background-position: center;
   z-index: 2;
   position: relative;
+
 }
 .banner_overlay {
   opacity: 0.8999999761581421;
@@ -194,8 +195,21 @@ nav ul li ul li a {
     top: 1003px;
     left: 215px;
 }
-.overview_content .blank_img{
+.overview_content .blank_img1 picture img {
   margin-right: 20px;
+  width: 270px;
+}
+.overview_content .blank_img2 picture img{
+  margin-right: 20px;
+  width: 200px;
+}
+.overview_content .blank_img3 picture img{
+  margin-right: 20px;
+  width: 340px;
+}
+.overview_content .blank_img4  picture img{
+  margin-right: 20px;
+  width: 270px;
 }
 
 .overview_content_2 {
@@ -385,21 +399,25 @@ margin-right: 35px;
   position: relative;
   top: 19px;
   left: 187px;
+  width: 161px;
 }
 .impact_content_img_2 {
   position: relative;
   top: -223px;
   left: -74px;
+  width: 227px;
 }
 .impact_content_img_3{
   position: relative;
   top: -463px;
   left: 122px;
+  width: 310px;
 }
 .impact_content_img_4{
   position: relative;
   top: -907px;
   left: 375px;
+  width: 130px;
 }
 
 /* ============================== impact html   end =======================  */
@@ -512,7 +530,7 @@ padding-bottom: 48px;
 }
 /*  ============================== think about end =======================  */
 /*  ============================== like start =======================  */
-.like_title {
+.like_title h5 {
   color: #030314;
 line-height: 65px;
 letter-spacing: -2px;
